@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>计算器</title>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+<div class="box">
+  <table border="1" style="table-layout:fixed">
+    <tr>
+      <td colspan="4" align="center" class="tou">计算器</td>
+    </tr>
+    <tr>
+      <td colspan="4"><form name="form2" method="post" action="">
+          <label for="textfield"></label>
+          <input type="text" name="textfield" id="str">
+        </form></td>
+    </tr>
+    <tr>
+      <td><form name="form1" method="post" action="">
+          <input type="submit" name="button" id="button" value="清除" class="bt hang qc"  onClick="cal(this.value)">
+        </form></td>
+      <td><input type="submit" name="button2" id="button2" class="bt hang" value="sin" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button3" id="button3" class="bt hang"  value="cos" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button4" id="button4" class="bt jsf"  value="/" onClick="cal(this.value)"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="button16" id="seven" class="bt"  value="7" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button13" id="eight" class="bt"  value="8" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button12" id="button12" class="bt"  value="9" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button5" id="button5" class="bt jsf"  value="*" onClick="cal(this.value)"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="button17" id="four" class="bt" value="4" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button14" id="five" class="bt"  value="5" onclick="cal(this.value)"></td>
+      <td><input type="submit" name="button11" id="button11" class="bt"  value="6" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button6" id="button6" class="bt jsf"  value="-" onClick="cal(this.value)"></td>
+    </tr>
+    <tr>
+      <td><input type="submit" name="button18" id="button18" class="bt"  value="1" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button15" id="button15" class="bt"  value="2" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button10" id="button10" class="bt"  value="3" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button7" id="button7" class="bt jsf"  value="+" onClick="cal(this.value)"></td>
+    </tr>
+    <tr>
+      <td colspan="2"><input type="submit" name="button19" class="bt"  id="zer" value="0" onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button9" id="button9" class="bt"  value="." onClick="cal(this.value)"></td>
+      <td><input type="submit" name="button8" id="button8" class="bt jsf"  value="=" onClick="cal(this.value)"></td>
+    </tr>
+  </table>
+</div>
+<script type="text/javascript" src="js/index.js">
+</script>
+</body>
+</html>

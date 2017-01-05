@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0;}
+.p1,.p2,.p3 { margin:0 auto; font-size:22px; background:#FFC; display:block; width:600px; text-align:center; box-shadow:0 2px 5px #000;}
+.p1 {  background:#FFC; }
+.p2 { background:#F90; margin-top:10px;}
+.p3 { background:#F90; margin-top:10px;}
+
+.box1 , .box2 ,.box3,.box4{ width:600px; height:400px; border:2px #F36 solid; margin:0 auto; text-align:center}
+.box1a { width:150px; height:150px; margin:20px 20px; padding:10px 10px; border:10px #33F solid; background:#CFF; border-top:10px #F6C solid; border-left:10px #990 solid; border-right:10px #C06 solid; border-bottom:10px #690 solid; margin:0 auto;}
+.box1b { width:150px; height:150px; margin:20px 20px; padding:10px 10px; border:10px #33F solid; background:#FF9; border-top:10px #F6C solid; border-left:10px #990 dashed; border-right:10px #C06 dotted; border-bottom:10px #690 groove; box-sizing:border-box; margin:0 auto; }
+.box1b h3 { width:18px; width:18px; margin:0 auto;}
+.box1 hr {  margin:10px auto; border:5px #F5F5F5 solid;}
+.box2a {  width:200px; height:200px; background:#6C6; border:1px #CCC solid;  box-sizing:border-box; display:-webkit-box;  -webkit-box-align:center; -webkit-box-pack:center;}
+.box2a img { width:120px; height:120px;}
+.box2b { height:140px; background:#996; -webkit-flex:1;}
+.box2c { height:80px; background:#F66; -webkit-flex:1;}
+.col { width:800px;  border:2px #F90 dashed; margin:0 auto; -webkit-column-count:3; -webkit-column-gap:20px; -webkit-column-rule-style:dotted;}
+.col img { width:160px; height:160px; border:none; }
+.box2 { display:-webkit-flex; height:100%;}
+.box3 { height:180px; background:#fff; display:-webkit-flex; -webkit-flex-direction:colum; }
+.box3a,.box4a { width:80px; background:#09C;}
+.box3b,.box4b { width:150px; background:#363;}
+.box3c,.box4c { width:170px; background:#C0F;}
+.box3 strong,.box4 strong { margin:0 auto;}
+.box4 { display:-webkit-box; -webkit-box-orient:vertical;}
+.box4a { -webkit-box-flex:1; }
+.box4b { -webkit-box-flex:1; }
+.box4c { -webkit-box-flex:1; }

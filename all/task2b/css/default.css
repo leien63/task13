@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0;}
+body { font:12px Arial; background:url(../img/bg.png); line-height:26px;}
+.contain { width:710px; height:100%; margin:0 auto; margin-top:10px; margin-bottom:10px; background:#FFF; border-radius:24px;}
+.con1 { width:638px; margin-left:36px; margin-top:0;}
+.logopic { text-align:left; color:#F39; padding-bottom:0; padding-right:0;}
+.main table { border-collapse:collapse; border:1px #CCC solid;}
+.main h2{ margin-bottom:16px;}
+.s1{ display:block;word-spacing:1em; text-align:right; }
+.s1 a{ color:#F39;}
+.a1{ color:#003399;}
+.wenben { color:blue; line-height:20px;}
+#tj { background:#0FF; width:120px; height:22px; border:1px #09F solid; margin:25px 0;}
+.tijiao{ text-align:center;}
+.dibu { width:638px; height:50px; text-align:center; margin-left:36px;}
+
+table { border:1px #EEE solid; width:638px; height:100%; margin-left:36px;}
+

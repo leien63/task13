@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PHP测试</title>
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+ function wjk(){
+   $.ajax({
+	   url:'phpceshi.php',
+	   dataType:"json",
+	   success: function(data){
+		   console.log(data);
+		   wjk();
+		   } 
+	   });
+ }
+ wjk();
+ 
+</script>
+</head>
+
+<body>
+<!--<h1>test</h1>-->
+</body>
+</html>

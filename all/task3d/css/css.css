@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+* { padding:0; margin:0;}
+body { font:16px Arial, "微软雅黑", sans-serif; color:#000; line-height:28px; }
+.head { width:100%; height:60px; background:#D6D6D6; text-align:left; line-height:80px;}
+.wrap { min-width:800px; width:100%; overflow:hidden; margin:10px 0 10px 0; }
+.left { width:290px;  background:#9CC; float:left; margin-left:-100%; margin-bottom:-9999px; text-align:left; padding:10px 8px 9999px 8px; }
+.mid { width:100%;  background:#FFF; float:left; }
+.inner { margin-left:318px; margin-right:318px; background:#D6D6D6; padding-bottom:9999px; margin-bottom:-9999px;}
+.content {  text-indent:2em;}
+.right { width:290px; background:#9CC; float:left; margin-left:-306px; margin-bottom:-9999px; padding:10px 8px 9999px 8px;}
+.foot { width:100%; height:80px; background:#9CC; text-align:center; line-height:80px;}
