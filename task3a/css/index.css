@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0;}
+.wrap { margin:0 auto; margin-top:300px; perspective:1000px;}
+
+/*定义动画及效果*/
+ @-webkit-keyframes donghua {
+	  0% { transform:rotateX(0deg) rotateY(0deg);}
+	  100% { transform:rotateX(360deg) rotateY(360deg);}
+	 }
+ @-moz-keyframes donghua {
+	  0% { transform:rotateX(0deg) rotateY(0deg);}
+	  100% { transform:rotateX(360deg) rotateY(360deg);}
+	 }
+ @-o-keyframes donghua {
+	  0% { transform:rotateX(0deg) rotateY(0deg);}
+	  100% { transform:rotateX(360deg) rotateY(360deg);}
+	 }
+ @-ms-keyframes donghua {
+	  0% { transform:rotateX(0deg) rotateY(0deg);}
+	  100% { transform:rotateX(360deg) rotateY(360deg);}
+	 }
+	 
+/*外框样式*/	 
+.cube { 
+       margin:auto; width:216px; height:216px; position:relative; 
+	   -webkit-transform-style:preserve-3d; -webkit-animation:donghua 15s infinite linear;
+	   -moz-transform-style:preserve-3d; -moz-animation:donghua 15s infinite linear;
+	   -o-transform-style:preserve-3d; -o-animation:donghua 15s infinite linear;
+	   -ms-transform-style:preserve-3d; -ms-animation:donghua 15s infinite linear;
+	   }
+.qian ,.hou ,.zuo ,.you ,.shang ,.xia { width:100%; height:100%; position:absolute; overflow:hidden;}
+.qian div , .hou div , .zuo div ,.you div ,.shang div ,.xia div { width:70px; height:70px; border-radius:15%; float:left; border:1px #CCC solid; display:block; }
+
+/*各个面样式设置*/
+.qian { -webkit-transform:translateZ(108px) rotateZ(90deg); 
+        -moz-transform:translateZ(108px) rotateZ(90deg);
+        -ms-transform:translateZ(108px) rotateZ(90deg); 
+        -o-transform:translateZ(108px) rotateZ(90deg);
+      }
+.cube .qian div { background:#939; 
+                  -webkit-transform:translateZ(108px) rotateX(180deg);
+				  -moz-transform:translateZ(108px) rotateX(180deg);
+				  -ms-transform:translateZ(108px) rotateX(180deg); 
+				  -o-transform:translateZ(108px) rotateX(180deg);
+				 }
+				  
+.hou { -webkit-transform:translateZ(-108px) rotateZ(90deg);
+       -moz-transform:translateZ(-108px) rotateZ(90deg);
+       -ms-transform:translateZ(-108px) rotateZ(90deg);
+       -o-transform:translateZ(-108px) rotateZ(90deg);
+     }
+.cube .hou div { background:#39F; 
+                 -webkit-transform:translateZ(-108px) rotateX(180deg);
+				 -moz-transform:translateZ(-108px) rotateX(180deg);
+				 -ms-transform:translateZ(-108px) rotateX(180deg);
+				 -o-transform:translateZ(-108px) rotateX(180deg);
+				}
+.zuo { -webkit-transform:rotateY(90deg) translateZ(108px); 
+       -moz-transform:rotateY(90deg) translateZ(108px); 
+       -ms-transform:rotateY(90deg) translateZ(108px); 
+       -o-transform:rotateY(90deg) translateZ(108px);
+      }
+.cube .zuo div { background:#390; 
+                 -webkit-transform:rotateY(-180deg) translateZ(108px); 
+                 -moz-transform:rotateY(-180deg) translateZ(108px); 
+                 -ms-transform:rotateY(-180deg) translateZ(108px);
+                 -o-transform:rotateY(-180deg) translateZ(108px); 
+                }
+.you { -webkit-transform:rotateY(90deg) translateZ(-108px);
+       -moz-transform:rotateY(90deg) translateZ(-108px); 
+       -ms-transform:rotateY(90deg) translateZ(-108px);
+       -o-transform:rotateY(90deg) translateZ(-108px);
+      }
+.cube .you div {  background:#990; 
+                  -webkit-transform:rotateY(-180deg) translateZ(108px); 
+                  -ms-transform:rotateY(-180deg) translateZ(108px);
+                  -moz-transform:rotateY(-180deg) translateZ(108px);
+                  -o-transform:rotateY(-180deg) translateZ(108px);
+			   }
+.shang { -webkit-transform:rotateX(90deg) translateZ(108px);
+         -moz-transform:rotateX(90deg) translateZ(108px);
+         -ms-transform:rotateX(90deg) translateZ(108px); 
+         -o-transform:rotateX(90deg) translateZ(108px);
+        }
+.cube .shang div { background:#666;
+                   -webkit-transform:rotateZ(-180deg) translateZ(108px); 
+                   -ms-transform:rotateZ(-180deg) translateZ(108px);
+                   -moz-transform:rotateZ(-180deg) translateZ(108px);
+                   -o-transform:rotateZ(-180deg) translateZ(108px);
+                 }
+.xia { -webkit-transform:rotateX(90deg) translateZ(-108px);
+       -moz-transform:rotateX(90deg) translateZ(-108px); 
+       -ms-transform:rotateX(90deg) translateZ(-108px);
+       -o-transform:rotateX(90deg) translateZ(-108px);
+	  }
+.cube .xia div { background:#F39; 
+                -webkit-transform:rotateZ(-180deg) translateZ(-108px); 
+                -moz-transform:rotateZ(-180deg) translateZ(-108px); 
+                -ms-transform:rotateZ(-180deg) translateZ(-108px);
+                -o-transform:rotateZ(-180deg) translateZ(-108px);
+               }
+

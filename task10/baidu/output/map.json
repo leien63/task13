@@ -1,0 +1,58 @@
+{
+    "res": {
+        "css/baidu.css": {
+            "uri": "/css/baidu.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "css/dl.css": {
+            "uri": "/css/dl.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "css/index.css": {
+            "uri": "/css/index.css",
+            "type": "css",
+            "pkg": "p1"
+        },
+        "script/baidu.js": {
+            "uri": "/script/baidu.js",
+            "type": "js"
+        },
+        "script/dl.js": {
+            "uri": "/script/dl.js",
+            "type": "js"
+        },
+        "script/jquery.min.js": {
+            "uri": "/script/jquery.min.js",
+            "type": "js"
+        }
+    },
+    "pkg": {
+        "p1": {
+            "uri": "/pkg/aio.css",
+            "type": "css",
+            "has": [
+                "css/baidu.css",
+                "css/dl.css",
+                "css/index.css"
+            ]
+        },
+        "auto_js_0": {
+            "uri": "/pkg/auto_combine_e4101.js",
+            "type": "js",
+            "has": [
+                "script/jquery.min.js",
+                "script/baidu.js"
+            ]
+        },
+        "auto_js_1": {
+            "uri": "/pkg/auto_combine_cf1cb.js",
+            "type": "js",
+            "has": [
+                "script/jquery.min.js",
+                "script/dl.js"
+            ]
+        }
+    }
+}

@@ -1,0 +1,1 @@
+function show(){$("#waidi").show()}function hid(){$("#waidi").hide()}$(document).ready(function(){$("#gdcp").on("mouseenter",show),$("#waidi").on("mouseleave",hid)});

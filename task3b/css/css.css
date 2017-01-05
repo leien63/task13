@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0;}
+
+/* 以下为动画效果样式*/
+@-webkit-keyframes donghua1 {
+	0% { transform-origin:left bottom; transform:rotate(0deg);}
+	50% { transform-origin:left bottom; transform:rotate(25deg);}
+	100% { transform-origin:left bottom; transform:rotate(0deg);}
+	} 
+	
+@-ms-keyframes donghua1 {
+	0% { transform-origin:left bottom; transform:rotate(0deg);}
+	50% { transform-origin:left bottom; transform:rotate(25deg);}
+	100% { transform-origin:left bottom; transform:rotate(0deg);}
+	} 
+	
+@-moz-keyframes donghua1 {
+	0% { transform-origin:left bottom; transform:rotate(0deg);}
+	50% { transform-origin:left bottom; transform:rotate(25deg);}
+	100% { transform-origin:left bottom; transform:rotate(0deg);}
+	} 
+	
+@-o-keyframes donghua1 {
+	0% { transform-origin:left bottom; transform:rotate(0deg);}
+	50% { transform-origin:left bottom; transform:rotate(25deg);}
+	100% { transform-origin:left bottom; transform:rotate(0deg);}
+	} 
+	
+/* 主体样式*/	
+.wrap { margin:auto; margin-top:150px; height:460px; width:600px; border:1px solid #CCC; position:relative;}
+
+/* 头部样式*/	
+.edleft , .edright { width:30px; height:100px; border:4px #000 solid; border-top-left-radius:60%; border-bottom-right-radius:80%; border-top-right-radius:40%; border-bottom-left-radius:20%; transform-origin:left bottom;}
+.edleft { position:absolute; top:10px; left:225px;
+          -webkit-transform-origin:left rotate(10deg); -webkit-animation:donghua1 1.5s ease-out infinite;
+		  -moz-transform-origin:left rotate(10deg); -moz-animation:donghua1 1.5s ease-out infinite;
+		  -o-transform-origin:left rotate(10deg); -o-animation:donghua1 1.5s ease-out infinite;
+		  -ms-transform-origin:left rotate(10deg); -ms-animation:donghua1 1.5s ease-out infinite;
+		    }
+.edright { position:absolute; top:8px; left:360px;
+          -webkit-transform-origin:left rotate(15deg); -webkit-animation:donghua1 1.5s ease-out infinite;
+		  -moz-transform-origin:left rotate(15deg); -moz-animation:donghua1 1.5s ease-out infinite;
+		  -o-transform-origin:left rotate(15deg); -o-animation:donghua1 1.5s ease-out infinite;
+		  -ms-transform-origin:left rotate(15deg); --animation:donghua1 1.5s ease-out infinite;
+		     }
+.face { width:200px; height:160px; border:4px #000 solid; border-top-left-radius:170%; border-top-right-radius:190%; border-bottom-left-radius:110%; border-bottom-right-radius:90%; position:absolute; left:200px; top:40px; background:#FFF;}
+.thleft ,.thright { width:35px; height:30px; background:#0CC; border:2px #000 solid; border-radius:44%; position:absolute;}
+.thleft { top:44px; left:215px;}
+.thright { top:44px; left:248px; }
+.thmid { top:50px; left:240px;}
+.thmid { width:17px; height:15px; background:#0CC; border:2px #000 solid; border-top-left-radius:80%; border-bottom-left-radius:40%; position:absolute;}
+.eyeredleft ,.eyeredright { width:34px; height:34px; border-radius:50%; background:#F69; position:absolute; opacity:.7;}
+.eyeredleft { top:130px; left:212px;}
+.eyeredright { top:130px; left:360px;}
+.eyeleft ,.eyeright {  width:30px; height:50px;  background:#000; border-top-left-radius:50%; border-bottom-right-radius:40%; border-top-right-radius:45%; border-bottom-left-radius:50%; }
+.eyeleft { transform-origin:left bottom; transform:skew(-8deg); position:absolute; top:105px; left:216px;}
+.eyeright { transform-origin:right bottom; transform:skew(8deg); position:absolute; top:105px; left:360px;}
+.leftbai ,.rightbai { background:#FFF; border-radius:50%; width:10px; height:10px; position:absolute;}
+.leftbai { top:114px; left:232px; z-index:1;}
+.rightbai { top:114px; left:364px; z-index:1;}
+
+/*头部以下样式*/
+.d1 { width:30px; height:50px; border:4px #000 solid; border-bottom-left-radius:25%; border-top-left-radius:75%; border-bottom-right-radius:55%; border-top-right-radius:25%; position:absolute; top:200px; left:230px; transform:left top; transform:skew(-7deg); z-index:-1;}
+.d2 { width:130px; height:88px; background:#F90; border:4px #000 solid; border-top-left-radius:75%; border-bottom-left-radius:35%; border-top-right-radius:80%; border-bottom-right-radius:40%; position:absolute; top:190px; left:240px; z-index:-1;}
+.d3 { width:40px; height:60px; border:4px #000 solid; border-bottom-left-radius:75%; border-top-left-radius:25%; border-bottom-right-radius:25%; border-top-right-radius:75%; position:absolute; top:184px; left:340px; background:#FFF; z-index:-1; transform:top left; transform:skew(20deg);}
+.d4,.d5 { height:40px; background:#FFF; border:4px solid #000;}
+.d4 { width:50px; border-bottom-left-radius:35%; border-bottom-right-radius:35%; position:absolute; top:250px; left:250px; z-index:-2;}
+.d5{ width:60px; border-bottom-left-radius:40%; border-bottom-right-radius:40%; position:absolute; top:250px; left:300px; z-index:-2;}
+
+/* 鼻子样式*/
+.d8,.d9,.d0 { width:10px; height:25px; background:#000; border-radius:40%; margin-left:20px; position:absolute;}
+.d8 {  transform-origin:left top; transform:rotate(-60deg); background:#000; top:128px; left:260px; }
+.d9 {  transform-origin:left top; transform:rotate(60deg); top:120px; left:300px; }
+.d0 {  top:130px; left:278px;  }
+.d10 { height:10px; width:20px; position:absolute; top:133px; left:293px; border-radius:40%; background:#000;}

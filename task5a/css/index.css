@@ -1,0 +1,9 @@
+@charset "utf-8";
+/* CSS Document */
+* { padding:0; margin:0;}
+.wrap { margin-top:60px;}
+ table{ width:620px; height:540px; border:1px #CCC solid; padding:0; border-collapse:collapse; text-align:center; margin:0 auto;}
+ table strong { color:#F00; font-size:18px;}
+ table thead { font-size:22px;}
+#score { width:70%; border:1px #09C solid; height:36px;}
+#tijiao { width:25%; border-radius:10%; background:#FFF; font-size:16px; border:1px #999 solid; height:32px;}

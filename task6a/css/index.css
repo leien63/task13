@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	padding: 0;
+	margin: 0;
+}
+.box {
+	width: 425px;
+	height: 100%;
+	border: 2px #F96 solid;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-top: 90px;
+}
+table {
+	width: 425px;
+	height: 100%;
+	border: 1px #CCC solid;
+	padding: 0;
+	border-collapse: collapse;
+	text-align: center;
+	margin: 0 auto;
+}
+#str {
+	width: 420px;
+	height: 60px;
+	font: bold 28px "微软雅黑";
+	color: #8E4700;
+	text-align: right;
+	background: #FFC;
+	line-height: 60px;
+}
+.bt {
+	width: 104px;
+	height: 80px;
+	border: 1px #F63 solid;
+	font-size: 26px;
+	background: #FFF;
+	cursor: pointer;
+}
+#zer {
+	width: 208px;
+}
+.jsf {
+	background: #F96;
+	font-size: 36px;
+}
+.hang {
+	background: #E8E8E8;
+}
+.qc {
+	color: #FF0080;
+}
+.tou {
+	font: bold 28px "微软雅黑";
+	color: #000;
+	text-align: center;
+}

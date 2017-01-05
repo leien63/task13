@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--移动端适配-->
+    <title>后台管理系统</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+</head>
+
+<body>
+<!--主体-->
+<div class="container-fluid"><!--外框-->
+  <div class="well well-lg">
+    <div class="page-header">
+      <h1><span class="glyphicon glyphicon-globe" style="color:#00954A"></span> 学生你好！平台是开始，这里是起步 <small>Fighting...</small></h1>
+    </div>
+  </div>
+  <div class="row"><!--第一行-->
+    <div class="col-md-12"><!--第一行，第一列-->
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation"><a href="main.html">返回登录界面</a></li>
+        <li role="presentation" class="active"><a href="#">主页</a></li>
+        <li role="presentation"><a href="#">设置</a></li>
+        <li role="presentation"><a href="#">信息</a></li>
+      </ul>
+    </div>
+    <!--第一行，第一列--> 
+  </div>
+  <!--第一行-->
+  
+  <div class="row"><!--第二行-->
+    <div class="col-md-3"><!--第二行，第一列，占3-->
+      <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingOne">
+            <h4 class="panel-title text-center"> <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" >教务中心<span class="caret"></span> </a> </h4>
+          </div>
+          <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+            <div class="panel-body">
+              <div class="list-group"> <a href="#" class="list-group-item active">班级管理</a> <a href="#" class="list-group-item">学员管理</a> <a href="#" class="list-group-item">学员心声</a> <a href="#" class="list-group-item">档案查询</a> <a href="#" class="list-group-item">重要信息</a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingTwo">
+            <h4 class="panel-title text-center"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> 教研中心 <span class="caret"></span> </a> </h4>
+          </div>
+          <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+            <div class="panel-body">
+              <div class="list-group"> <a href="#" class="list-group-item active">助教中心</a> <a href="#" class="list-group-item">新手中心</a> <a href="#" class="list-group-item">我的任务</a> <a href="#" class="list-group-item">图书馆</a> <a href="#" class="list-group-item">三方参考</a> </div>
+            </div>
+          </div>
+        </div>
+        <div class="panel panel-default">
+          <div class="panel-heading" role="tab" id="headingThree">
+            <h4 class="panel-title text-center"> <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree"> 退款维权 <span class="caret"></span> </a> </h4>
+          </div>
+          <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div class="panel-body">
+              <div class="list-group"> <a href="#" class="list-group-item active">退款管理</a> <a href="#" class="list-group-item">售后管理</a> <a href="#" class="list-group-item">投诉管理</a> <a href="#" class="list-group-item">咨询回复</a> <a href="#" class="list-group-item">全网举报</a> </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="list-group"> <span href="#" class="list-group-item list-group-item-success glyphicon text-center"> 教学服务</span> <a href="#" class="list-group-item list-group-item-info"><span class="glyphicon glyphicon-fire"> 热门信息</span></a> <a href="#" class="list-group-item list-group-item-info"><span class="
+glyphicon glyphicon-phone-alt"> 学号查询</span></a> <a href="#" class="list-group-item list-group-item-warning"><span class="glyphicon glyphicon-plane"> 校园印象</span></a> <a href="#" class="list-group-item list-group-item-danger">常用服务电话</a> </div>
+      <address class="text-center">
+      <strong>WJK, Inc.</strong><br>
+      上海市东方大道795号1108室<br>
+      圣保罗大学<br>
+      <abbr title="Phone">P:</abbr> (123) 456-7890
+      </address>
+      <address class="text-center">
+      <strong>Full Name</strong><br>
+      <a href="mailto:#">first.last@example.com</a>
+      </address>
+    </div>
+    <!--第二行，第一列，占3-->
+    
+    <div class="col-md-9"><!--第二行，第二列，占9-->
+      <ol class="breadcrumb">
+        <!--路径导航-->
+        <li><a href="#">主页</a></li>
+        <li><a href="#">学习库</a></li>
+        <li class="active">数据</li>
+      </ol>
+      <!--路径导航-->
+      <div class="row"> <!--第二行里的第二行-->
+        <div class="col-md-12">
+          <ul class="list-group">
+            <li class="list-group-item list-group-item-success">最近学习记录</li>
+            <li class="list-group-item list-group-item-info">2016年9月23日</li>
+            <li class="list-group-item list-group-item-warning">热门专业 </li>
+            <li class="list-group-item list-group-item-danger">极力推荐</li>
+          </ul>
+          <div class="jumbotron">
+            <h1>你好·互联网!</h1>
+            <p>联合国可持续发展委员会( Commission on Sustainable Development -- CSD )是1992年6月联合国环境与发展大会通过的《21世纪议程》决定于1992年第47届联大上审议建立“可持续发展委员会”。</p>
+            <p>1993年2月经社理事会组织会议上该委员会正式成立，属于联合国经社理事会。它的主要任务是增进国际合作和使政府间决策过程合理化，使其有能力兼顾环境发展问题。并在环发大会上通过的《里约环境与发展宣言》原则的指导下，审查在国家、区域和国际各级实施《21世纪议程》的进展情况，以便在所有国家实现持续发展。其工作涉及各国经济发展，各项活动将延续到下一世纪。可持续发展委员会的具体职能包括：追踪联合国系统在实施《21世纪议程》、将环境与发展密切结合方面取得的进展；考虑各国提供的关于实施《议程》情况的信息，包括各国在此方面面临的资金、技术转让等问题；审议执行《议程》的进展情况，包括提供资金和技术转让，以及发达国家的官方发展援助是否达到了占其国民生产总值0．7%的水平；通过经社理事会向联大提出报告。该委员会由各大洲分别选出的53个国家组成，遵循“地域公平分配原则”，从联合国会员国及专门机构成员国中产生，任期三年。亚洲11国、非洲13国、拉美10国、东欧6个、西欧和其他地区13国。</p>
+            <p class="text-right"><a class="btn btn-primary btn-lg" href="#" role="button">更多学习</a></p>
+          </div>
+        </div>
+        <!--col-md-12--> 
+        
+      </div>
+      <!--第二行里的第二行--> 
+      
+    </div>
+    <!--第二行，第二列，占9--> 
+  </div>
+  <!--第二行--> 
+  
+</div>
+<!--外框--> 
+
+<!--JS引用--> 
+<script src="js/jquery-3.1.1.min.js"></script> 
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
