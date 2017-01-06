@@ -1,4 +1,4 @@
-fis-quickstart-demo
-===================
-
-fis-quickstart-demo是FIS的快速上手示例，请配合[文档](http://fis.baidu.com/docs/beginning/getting-started.html)使用
+<h2>掌握前端工业化框架。<h2>
+<p>构建工具是前端工程化的一些工具，方便维护、组织代码和团队协作，属于高级进阶知识。</p>
+<p>课程提到的工具了解其中一种及其基本原理即可（重点可学Gulp或FIS）。</p>
+<p>前端框架更新速度快，了解其基本原理，后续以不变应万变！开始前先看【参考资料】</p>
